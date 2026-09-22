@@ -1,6 +1,7 @@
 import Header from "../Header"
 import Hero from "../Hero"
 import LandingLayout from "../Layout/LandingLayout"
+import TrendingNow from "../TrendingNow";
 
 const LandingPage = () => {
   return (
@@ -9,8 +10,8 @@ const LandingPage = () => {
         <Header />
         <Hero />
       </LandingLayout>
-      <section>
-        <h1>hellwo how are you</h1>
+      <section className="mt-4 p-4 min-h-[40vh]">
+        <TrendingNow/>
       </section>
     </main>
   )
