@@ -1,4 +1,4 @@
-import type { Movie } from "../data/movies";
+import type { Movie } from "../../data/movies";
 
 type MovieCardProps = {
   movie: Movie;
@@ -56,10 +56,12 @@ const MovieCard = ({ movie, rank }: MovieCardProps) => {
       <span
         className="
           absolute
-          top-2
-          left-0
+          top-0
+          left-1
+          
           text-6xl
           font-black
+          font-extrabold
           leading-none
           text-black
           [-webkit-text-stroke:1px_white]

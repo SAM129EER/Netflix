@@ -1,5 +1,6 @@
+import LandingPage from "./pages/Landing-page";
 
-import LandingPage from './components/pages/Landing';
+
 
 export function App() {
   return (

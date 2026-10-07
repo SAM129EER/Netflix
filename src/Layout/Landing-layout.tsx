@@ -1,12 +1,6 @@
 import React from "react"
 
-const LandingLayout = ({
-  children,
-  
-}: {
-  children: React.ReactNode
-
-}) => {
+const LandingLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <section className="relative min-h-screen">
       <div
