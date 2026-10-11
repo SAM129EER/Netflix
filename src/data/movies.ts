@@ -1,13 +1,6 @@
-// src/data/movies.ts
+import type { Movie } from "../types/movie"
 
-export interface Movie {
-  id: number;
-  title: string;
-  year: number;
-  rating: number;
-  genre: string[];
-  poster: string;
-}
+export type { Movie }
 
 export const trendingMovies: Movie[] = [
   {

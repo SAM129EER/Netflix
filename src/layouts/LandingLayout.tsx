@@ -1,16 +1,20 @@
-import React from "react"
+import type { ReactNode } from "react"
 
-const LandingLayout = ({ children }: { children: React.ReactNode }) => {
+interface LandingLayoutProps {
+  children: ReactNode
+}
+
+const LandingLayout = ({ children }: LandingLayoutProps) => {
   return (
     <section className="relative min-h-screen">
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('./hero.jpg')",
+          backgroundImage: "url('/hero.jpg')",
         }}
       />
 
-      {/* Overlay */}
+      {/* Dark overlay for contrast */}
       <div className="absolute inset-0 bg-black/60" />
 
       <div className="relative z-10">{children}</div>
