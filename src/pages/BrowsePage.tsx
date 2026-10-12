@@ -39,8 +39,8 @@ const BrowsePage = () => {
 
   return (
     <main className="min-h-screen bg-black text-white">
-      {/* Top Navigation */}
-      <div className="sticky top-0 z-50 bg-black/80 backdrop-blur-md">
+    
+      <div className="sticky top-0 z-50 bg-black/60 backdrop-blur-md">
         <Header
           variant="app"
           onSearchClick={() => setShowSearch((prev) => !prev)}
