@@ -42,6 +42,7 @@ const Search = ({ onClose }: SearchProps) => {
         <div className="absolute left-1/2 top-1/2 h-64 w-96 -translate-x-1/2 -translate-y-1/2 rounded-full bg-red-600/10 blur-3xl" />
       </div>
 
+
       <div className="mx-auto max-w-3xl text-center">
         <div className="flex items-center justify-between">
           <div className="flex-1 text-center">
